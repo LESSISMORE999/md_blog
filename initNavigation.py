@@ -57,7 +57,7 @@ def main():
     os.remove(navigationName)
     fileinfo = open(navigationName,'w')
     fileinfo.write(u'# 非专业Java程序员博客'+next_line_tag)
-    fileinfo.write(u'[gimmick:theme](slate)'+next_line_tag)
+    fileinfo.write(u'[gimmick:theme](cerulean)'+next_line_tag)
     walk_dir_get_data(dir, fileinfo)
 
 
